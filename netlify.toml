@@ -1,0 +1,10 @@
+[build]
+publish = "public/"
+
+functions = "functions/"
+
+[[redirects]]
+from = "/logging"
+to = "/"
+status = 200
+edge_handler = "logging"
